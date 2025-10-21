@@ -1,0 +1,11 @@
+import ast
+
+class VariableExtractor:
+    def __init__(self):
+        self.variables = []
+
+
+if __name__ == "__main__":
+    with open("input.py", "r") as file:
+        code = file.read()
+        

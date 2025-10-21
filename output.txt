@@ -1,0 +1,48 @@
+
+==================================================
+Execution Time: 2025-04-15 18:58:05
+--------------------------------------------------
+
+Variable Name Analysis:
+---------------------------------------------------------------------------
+Variable | Scope  | Line | Issue                                           
+---------------------------------------------------------------------------
+count    | global | 1    | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+x        | global | 2    | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+x        | local  | 4    | None                                            
+y        | local  | 5    | None                                            
+count    | local  | 6    | None                                            
+==================================================
+
+
+==================================================
+Execution Time: 2025-04-22 20:33:35
+--------------------------------------------------
+
+Variable Name Analysis:
+-----------------------------------------------------------------------------
+Variable   | Scope  | Line | Issue                                           
+-----------------------------------------------------------------------------
+count      | global | 4    | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+x          | local  | 6    | None                                            
+y          | local  | 7    | None                                            
+total      | global | 13   | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+total      | local  | 14   | None                                            
+BadVarName | global | 19   | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+camelCase  | local  | 21   | Naming Violation: Use snake_case                
+UPPER_case | local  | 22   | Naming Violation: Use snake_case                
+MAX_SIZE   | global | 27   | None                                            
+min_value  | global | 28   | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+config_var | local  | 43   | None                                            
+a          | local  | 48   | None                                            
+b          | local  | 50   | None                                            
+x          | global | 54   | Naming Violation: Use UPPERCASE_WITH_UNDERSCORES
+x          | local  | 56   | None                                            
+__weird__  | local  | 67   | None                                            
+_temp      | local  | 68   | None                                            
+__         | local  | 69   | None                                            
+CONSTANT   | global | 74   | None                                            
+self       | local  | 75   | None                                            
+temp       | local  | 77   | None                                            
+==================================================
+
